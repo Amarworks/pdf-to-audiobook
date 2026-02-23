@@ -1,60 +1,74 @@
-# 🎧 PDF to Audiobook Converter (Python)
+# 📖 PDF to Audiobook Converter (Beginner Friendly)
 
-Convert any PDF document into an **audiobook** using Python.  
-Perfect for students, accessibility, and learning on the go 📖➡️🔊
-
-This project extracts text from a PDF and converts it into speech using Python’s text-to-speech capabilities.
+This is a **simple Python project** that converts a PDF file into an **audiobook** 🔊.  
+Even if you are **new to Python**, you can understand and run this project easily.
 
 ---
 
-## 🚀 Why This Project?
+## 🎯 What Does This Project Do?
 
-Reading PDFs for long hours can be tiring.  
-This tool helps you **listen instead of read**, making learning more flexible and accessible.
+- You select a **PDF file**
+- Python reads the text inside the PDF
+- The text is **spoken out loud** using Text-to-Speech
 
-It is especially useful for:
+👉 Useful for:
+- Beginners learning Python 🐍
 - Students 📚
-- Visually impaired users ♿
-- Multitaskers 🎧
+- Listening instead of reading 🎧
 
 ---
 
-## ✨ Features
+## 🧠 Who Is This Project For?
 
-- 📄 Convert any PDF into audio
-- 🎙️ Text-to-Speech using Python
-- 🎵 Output in MP3/WAV format
-- 🧩 Simple and modular code structure
-- 🖥️ Easy to run from command line
+- Absolute beginners in Python
+- Students making their first GitHub project
+- Anyone who wants to learn **PDF handling + Text-to-Speech**
+
+No advanced concepts are used ❌  
+Everything is written in **simple steps** ✅
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Technologies Used
 
 - **Python 3**
-- **PyPDF2** – for PDF text extraction
-- **gTTS / pyttsx3** – for text-to-speech
-- **OS / Sys modules** – for file handling
+- **PyPDF2** → to read PDF files
+- **pyttsx3** → to convert text into speech
+- **tkinter** → to select PDF file (file dialog)
 
 ---
 
 ## 📂 Project Structure
-
-```text
 pdf-to-audiobook/
 │
-├── input_pdfs/
-│   └── sample.pdf
-│
-├── output_audio/
-│   └── sample_audio.mp3
-│
-├── src/
-│   ├── pdf_reader.py
-│   ├── audio_generator.py
-│   └── main.py
-│
-├── requirements.txt
-├── .gitignore
-├── LICENSE
-└── README.md
+├── main.py # Main Python file (all code here)
+├── requirements.txt # Required libraries
+├── README.md # Project explanation
+├── LICENSE # MIT License
+└── .gitignore # Ignored files
+
+---
+
+👉 Only **one Python file** is used to keep things simple.
+
+---
+
+## ⚙️ How the Program Works (Step by Step)
+
+1. The program asks you to **select a PDF file**
+2. The PDF is opened and read page by page
+3. Text is extracted from each page
+4. Python converts the text into speech
+5. The audiobook starts playing 🎧
+
+---
+
+## ▶️ How to Run This Project
+
+### 🔹 Step 1: Install Python
+
+Make sure **Python 3** is installed on your system.
+
+Check using:
+```bash
+python --version
