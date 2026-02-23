@@ -41,11 +41,11 @@ Everything is written in **simple steps** ✅
 ## 📂 Project Structure
 pdf-to-audiobook/
 │
-├── main.py # Main Python file (all code here)
-├── requirements.txt # Required libraries
-├── README.md # Project explanation
-├── LICENSE # MIT License
-└── .gitignore # Ignored files
+├── main.py
+├── requirements.txt
+├── README.md
+├── LICENSE
+└── .gitignore
 
 ---
 
