@@ -83,5 +83,18 @@ Each step is written clearly in the code with comments.
 Make sure Python 3 is installed on your system.
 
 Check using:
-```bash
+```base
 python --version
+```
+###Step 2: Install Required Libraries
+
+Open terminal or command prompt in the project folder and run:
+```
+pip install -r requirements.txt
+```
+###Step 3: Run the Program
+```
+python main.py
+```
+A file selection window will open.
+Select any text-based PDF file to start listening.
